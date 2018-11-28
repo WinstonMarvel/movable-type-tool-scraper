@@ -1,11 +1,12 @@
-// const app = require('express')();
 const getLinks = require('./getLinks');
 const getPosts = require('./getPosts');
-const writeString = require('./createExport');
+const createExport = require('./createExport');
 
 
-var url = "https://enmrpa.firmsitepreview.com/blog/2017/08/enm-law-news-custody-case-dismissed-in-favor-of-enm-law-client.shtml";
+var exportData = [];
 
-getPosts(url).then((post)=>{
-	console.log(post);
-})
+var links = getLinks();
+links.map(async (link)=>{
+	exportData.push(await getPosts(link));
+	createExport(exportData);
+});

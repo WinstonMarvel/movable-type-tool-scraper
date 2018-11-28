@@ -1,9 +1,3 @@
-//Gets posts from Wordpress sites using WordPress Rest API
-ajsdjksandkadasasd 
-asdnas
-dnasd
-asnda   
-sdnasd
-asdnas
-dsand
-sas
+https://enmrpa.firmsitepreview.com/blog/2017/08/enm-law-news-custody-case-dismissed-in-favor-of-enm-law-client.shtml
+https://enmrpa.firmsitepreview.com/blog/2011/12/
+https://enmrpa.firmsitepreview.com/blog/2011/12/retail-theft-charges-dismissed.shtml

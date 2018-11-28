@@ -17,5 +17,5 @@ var createPost = (body)=>{
 
 module.exports = async function(url){
 	var responseBody = await rp(url);
-	console.log(createPost(responseBody));
+	return createPost(responseBody);
 }
