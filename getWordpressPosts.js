@@ -1,0 +1,1 @@
+//Gets posts from Wordpress sites using WordPress Rest API

@@ -1,8 +1,9 @@
-const app = require('express')();
-const get_date = require('./clean_date');
-const write_string = require('./write_string')();
-const cheerio = require('cheerio');
+// const app = require('express')();
 const request = require('request'); 
+const cheerio = require('cheerio');
+const get_date = require('./cleanDate');
+const get_date = require('./getLinks');
+const write_string = require('./createExport')();
 
 var url = "https://enmrpa.firmsitepreview.com/blog/2017/08/enm-law-news-custody-case-dismissed-in-favor-of-enm-law-client.shtml";
 
