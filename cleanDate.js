@@ -1,10 +1,9 @@
 
 var parse_date = (date) =>{ //Convert string to MT readable numeric date
     new_date = [];
-    var monthList = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    var monthList_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
-    var month = monthList.indexOf(date[0]) + 1;
-    month = month.toString();
+    var monthList = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+    var monthList_short = ['jan', 'feb', 'mar', 'apr', 'may', 'june', 'july', 'aug', 'sept', 'oct', 'nov', 'dec'];
+    var month = monthList.indexOf(date[0].toLowerCase()) + 1;
     if(month.length == 1){
         month = "0" + month;
     }
