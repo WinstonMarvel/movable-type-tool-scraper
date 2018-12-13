@@ -1,0 +1,15 @@
+{
+	"post": {
+		"title": "h1.inner-title",
+		"date": ".inner-post-details li:nth-child(3)",
+		"body": ".blog-post-component-text",
+		"featuredImage": ".inner-figure img.inner-image",
+		"tags": "",
+		"category": ""
+	},
+	"path":{
+		"input" : "",
+		"output": "",
+		"outPutImages" : "exportImages"
+	}
+}
